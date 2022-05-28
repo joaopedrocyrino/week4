@@ -9,7 +9,7 @@
         "next:dev": "next dev",
         "hardhat:node": "hardhat node",
         "compile": "hardhat compile",
-        "deploy": "hardhat deploy",
+        "deploy": "hardhat run scripts/deploy.ts --network localhost",
         "test": "hardhat test",
         "report-gas": "REPORT_GAS=true hardhat test",
         "start": "next start",
@@ -23,7 +23,8 @@
         "assert": "^2.0.0",
         "next": "12.0.10",
         "react": "17.0.2",
-        "react-dom": "17.0.2"
+        "react-dom": "17.0.2",
+        "yup": "^0.32.11"
     },
     "devDependencies": {
         "@appliedzkp/semaphore-contracts": "^0.8.0",

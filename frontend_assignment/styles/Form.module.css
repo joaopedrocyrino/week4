@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  flex-direction: column;
+}
+
+.button {
+  width: 200px;
+  padding: 10px;
+  background-color: #3db7bd;
+  color: #fefefe;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: black;
+}
